@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF44C832A84138B006CB7D3 /* WeSignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF44C822A84138B006CB7D3 /* WeSignApp.swift */; };
+		0CF44C852A84138B006CB7D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF44C842A84138B006CB7D3 /* ContentView.swift */; };
+		0CF44C872A84138C006CB7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF44C862A84138C006CB7D3 /* Assets.xcassets */; };
+		0CF44C8A2A84138C006CB7D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF44C892A84138C006CB7D3 /* Preview Assets.xcassets */; };
+		0CF44C942A84138C006CB7D3 /* WeSignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF44C932A84138C006CB7D3 /* WeSignTests.swift */; };
+		0CF44C9E2A84138C006CB7D3 /* WeSignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF44C9D2A84138C006CB7D3 /* WeSignUITests.swift */; };
+		0CF44CA02A84138C006CB7D3 /* WeSignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF44C9F2A84138C006CB7D3 /* WeSignUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CF44C902A84138C006CB7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CF44C772A84138B006CB7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CF44C7E2A84138B006CB7D3;
+			remoteInfo = WeSign;
+		};
+		0CF44C9A2A84138C006CB7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CF44C772A84138B006CB7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CF44C7E2A84138B006CB7D3;
+			remoteInfo = WeSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF44C7F2A84138B006CB7D3 /* WeSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF44C822A84138B006CB7D3 /* WeSignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSignApp.swift; sourceTree = "<group>"; };
+		0CF44C842A84138B006CB7D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CF44C862A84138C006CB7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CF44C892A84138C006CB7D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CF44C8F2A84138C006CB7D3 /* WeSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF44C932A84138C006CB7D3 /* WeSignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSignTests.swift; sourceTree = "<group>"; };
+		0CF44C992A84138C006CB7D3 /* WeSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF44C9D2A84138C006CB7D3 /* WeSignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSignUITests.swift; sourceTree = "<group>"; };
+		0CF44C9F2A84138C006CB7D3 /* WeSignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CF44C7C2A84138B006CB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF44C8C2A84138C006CB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF44C962A84138C006CB7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF44C762A84138B006CB7D3 = {
+			isa = PBXGroup;
+			children = (
+				0CF44C812A84138B006CB7D3 /* WeSign */,
+				0CF44C922A84138C006CB7D3 /* WeSignTests */,
+				0CF44C9C2A84138C006CB7D3 /* WeSignUITests */,
+				0CF44C802A84138B006CB7D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CF44C802A84138B006CB7D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CF44C7F2A84138B006CB7D3 /* WeSign.app */,
+				0CF44C8F2A84138C006CB7D3 /* WeSignTests.xctest */,
+				0CF44C992A84138C006CB7D3 /* WeSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CF44C812A84138B006CB7D3 /* WeSign */ = {
+			isa = PBXGroup;
+			children = (
+				0CF44C822A84138B006CB7D3 /* WeSignApp.swift */,
+				0CF44C842A84138B006CB7D3 /* ContentView.swift */,
+				0CF44C862A84138C006CB7D3 /* Assets.xcassets */,
+				0CF44C882A84138C006CB7D3 /* Preview Content */,
+			);
+			path = WeSign;
+			sourceTree = "<group>";
+		};
+		0CF44C882A84138C006CB7D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CF44C892A84138C006CB7D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CF44C922A84138C006CB7D3 /* WeSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CF44C932A84138C006CB7D3 /* WeSignTests.swift */,
+			);
+			path = WeSignTests;
+			sourceTree = "<group>";
+		};
+		0CF44C9C2A84138C006CB7D3 /* WeSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CF44C9D2A84138C006CB7D3 /* WeSignUITests.swift */,
+				0CF44C9F2A84138C006CB7D3 /* WeSignUITestsLaunchTests.swift */,
+			);
+			path = WeSignUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CF44C7E2A84138B006CB7D3 /* WeSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF44CA32A84138C006CB7D3 /* Build configuration list for PBXNativeTarget "WeSign" */;
+			buildPhases = (
+				0CF44C7B2A84138B006CB7D3 /* Sources */,
+				0CF44C7C2A84138B006CB7D3 /* Frameworks */,
+				0CF44C7D2A84138B006CB7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeSign;
+			productName = WeSign;
+			productReference = 0CF44C7F2A84138B006CB7D3 /* WeSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CF44C8E2A84138C006CB7D3 /* WeSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF44CA62A84138C006CB7D3 /* Build configuration list for PBXNativeTarget "WeSignTests" */;
+			buildPhases = (
+				0CF44C8B2A84138C006CB7D3 /* Sources */,
+				0CF44C8C2A84138C006CB7D3 /* Frameworks */,
+				0CF44C8D2A84138C006CB7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CF44C912A84138C006CB7D3 /* PBXTargetDependency */,
+			);
+			name = WeSignTests;
+			productName = WeSignTests;
+			productReference = 0CF44C8F2A84138C006CB7D3 /* WeSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CF44C982A84138C006CB7D3 /* WeSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF44CA92A84138C006CB7D3 /* Build configuration list for PBXNativeTarget "WeSignUITests" */;
+			buildPhases = (
+				0CF44C952A84138C006CB7D3 /* Sources */,
+				0CF44C962A84138C006CB7D3 /* Frameworks */,
+				0CF44C972A84138C006CB7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CF44C9B2A84138C006CB7D3 /* PBXTargetDependency */,
+			);
+			name = WeSignUITests;
+			productName = WeSignUITests;
+			productReference = 0CF44C992A84138C006CB7D3 /* WeSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CF44C772A84138B006CB7D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0CF44C7E2A84138B006CB7D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0CF44C8E2A84138C006CB7D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0CF44C7E2A84138B006CB7D3;
+					};
+					0CF44C982A84138C006CB7D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0CF44C7E2A84138B006CB7D3;
+					};
+				};
+			};
+			buildConfigurationList = 0CF44C7A2A84138B006CB7D3 /* Build configuration list for PBXProject "WeSign" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CF44C762A84138B006CB7D3;
+			productRefGroup = 0CF44C802A84138B006CB7D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CF44C7E2A84138B006CB7D3 /* WeSign */,
+				0CF44C8E2A84138C006CB7D3 /* WeSignTests */,
+				0CF44C982A84138C006CB7D3 /* WeSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CF44C7D2A84138B006CB7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF44C8A2A84138C006CB7D3 /* Preview Assets.xcassets in Resources */,
+				0CF44C872A84138C006CB7D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF44C8D2A84138C006CB7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF44C972A84138C006CB7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CF44C7B2A84138B006CB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF44C852A84138B006CB7D3 /* ContentView.swift in Sources */,
+				0CF44C832A84138B006CB7D3 /* WeSignApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF44C8B2A84138C006CB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF44C942A84138C006CB7D3 /* WeSignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF44C952A84138C006CB7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF44C9E2A84138C006CB7D3 /* WeSignUITests.swift in Sources */,
+				0CF44CA02A84138C006CB7D3 /* WeSignUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CF44C912A84138C006CB7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CF44C7E2A84138B006CB7D3 /* WeSign */;
+			targetProxy = 0CF44C902A84138C006CB7D3 /* PBXContainerItemProxy */;
+		};
+		0CF44C9B2A84138C006CB7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CF44C7E2A84138B006CB7D3 /* WeSign */;
+			targetProxy = 0CF44C9A2A84138C006CB7D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CF44CA12A84138C006CB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CF44CA22A84138C006CB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CF44CA42A84138C006CB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSign/Preview Content\"";
+				DEVELOPMENT_TEAM = 39N23PPBFA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeSign.WeSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CF44CA52A84138C006CB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSign/Preview Content\"";
+				DEVELOPMENT_TEAM = 39N23PPBFA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeSign.WeSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CF44CA72A84138C006CB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39N23PPBFA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeSign.WeSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeSign";
+			};
+			name = Debug;
+		};
+		0CF44CA82A84138C006CB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39N23PPBFA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeSign.WeSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeSign";
+			};
+			name = Release;
+		};
+		0CF44CAA2A84138C006CB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39N23PPBFA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeSign.WeSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeSign;
+			};
+			name = Debug;
+		};
+		0CF44CAB2A84138C006CB7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39N23PPBFA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WeSign.WeSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeSign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CF44C7A2A84138B006CB7D3 /* Build configuration list for PBXProject "WeSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF44CA12A84138C006CB7D3 /* Debug */,
+				0CF44CA22A84138C006CB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CF44CA32A84138C006CB7D3 /* Build configuration list for PBXNativeTarget "WeSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF44CA42A84138C006CB7D3 /* Debug */,
+				0CF44CA52A84138C006CB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CF44CA62A84138C006CB7D3 /* Build configuration list for PBXNativeTarget "WeSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF44CA72A84138C006CB7D3 /* Debug */,
+				0CF44CA82A84138C006CB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CF44CA92A84138C006CB7D3 /* Build configuration list for PBXNativeTarget "WeSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF44CAA2A84138C006CB7D3 /* Debug */,
+				0CF44CAB2A84138C006CB7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CF44C772A84138B006CB7D3 /* Project object */;
+}
