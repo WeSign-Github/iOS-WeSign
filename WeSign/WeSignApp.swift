@@ -23,7 +23,7 @@ struct WeSignApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
     
