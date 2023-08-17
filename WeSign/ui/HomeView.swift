@@ -29,7 +29,7 @@ struct HomeMenu : View {
         GeometryReader { geo in
             VStack {
                 HStack(alignment: .center) {
-                    MenuButton(text: "Text to Sign")
+                    MenuButton(text: "Text to\nSign")
                     MenuButton(text: "Start Learning")
                 }.frame(height: geo.size.height * 0.5)
                 MenuButton(text: "Start Analyze")
@@ -59,7 +59,7 @@ struct MenuButton : View {
             VStack(alignment: .leading) {
                 
                 Text(text)
-                    .font(.title2)
+                    .font(.title)
                     .lineLimit(2)
                     .frame(maxWidth: .infinity,alignment: .leading)
             }.padding(.all,10)
