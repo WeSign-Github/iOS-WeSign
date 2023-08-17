@@ -56,7 +56,13 @@ struct MenuButton : View {
             RoundedRectangle(cornerRadius: cornerRadius)
                 .foregroundColor(.white)
                 .shadow(radius: shadowRadius,x: 0, y: 9)
-            Text(text).lineLimit(2)
+            VStack(alignment: .leading) {
+                
+                Text(text)
+                    .font(.title2)
+                    .lineLimit(2)
+                    .frame(maxWidth: .infinity,alignment: .leading)
+            }.padding(.all,10)
         }.padding(.all,5)
         
     }
